@@ -15,7 +15,7 @@ const {
 /* -------------------------- Database Connectivity ------------------------- */
 mongoose
   .connect(process.env.MONGO_URL, {
-    dbName: "Blogify_Backend",
+    dbName: "Blogify_backend",
   })
   .then(() => console.log("Database Connected"))
   .catch((e) => console.log(e));
